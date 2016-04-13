@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">DMVEasy</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_button">Begin Test!</string>
+    <string name="title_activity_quiz_grade_">QuizGrade_Activity</string>
+    <string name="title_activity_flash_card">FlashCard</string>
+    <string name="title_activity_flash_card_">FlashCard_Activity</string>
+    <string name="cow">This sign signals a cow crossing! Look out!</string>
+    <string name="crossroad">This sign indicates an intersection is upcoming. Watch for red lights and stopped traffic</string>
+    <string name="curvy">This sign indicates the road is about to become curvy. Adjust speed accordingly.</string>
+    <string name="divided">The highway you are on is about to become divided. Avoid the median!</string>
+    <string name="fallingrock">This sign indicates a rock fall area. Keep an eye out for rocks in the road</string>
+    <string name="handsignals">These are the common hand signals. It is important to know these as cyclists use them to communicate, and you might need them if your lights are out!</string>
+    <string name="no_entry">Usually seen around freeway offramps and one way streets, this sign indicates that you should not enter the road from whatever direction you are approaching</string>
+    <string name="no_right">This sign means you can not turn right. Usually because you are crossing a one way street.</string>
+    <string name="nou">No U-turn. Don\'t even think about it. NO U!</string>
+    <string name="railroad">Railroad crossing indicator. If you see the arms coming down do not try to beat it!</string>
+    <string name="stopahead">This sign signals an upcoming stop sign. Slow down and prepare to stop.</string>
+    <string name="threeway">Threeway intersection. Watch out for merging traffic.</string>
+    <string name="truck_warn">You will see this sign on the back of trucks. The numbers indicate threat levels in three different categories.</string>
+    <string name="title_activity_activity_tips">activity_tips</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_resources">Resources</string>
+    <string name="noteString">Notes</string>
+    <string name="dmvLinksText">DMV Links</string>
+    <string name="link1url"> https://www.dmv.ca.gov/portal/dmv </string>
+    <string name="link2url"> http://local.dmv.org/california/san-diego-county/dmv-office-locations.php </string>
+    <string name="videos"> Videos </string>
+    <string name="link3url"> https://www.youtube.com/watch?v=J687gFsqWx8 </string>
+    <string name="link4url"> https://www.youtube.com/watch?v=d1R3eG3THbE </string>
+    <string name="link5url"> https://www.youtube.com/watch?v=7ClH977D0Yg </string>
+    <string name="firstLinkDescription"> This link below should take you to the official California DMV portal.</string>
+    <string name="secondLinkDescription"> This link below should take you to the local DMV office locations.</string>
+    <string name="thirdLinkDescription"> This link below should take you to a tutorial on the rules of the road.</string>
+    <string name="fourthLinkDescription"> This link below should take you to a parking tutorial. </string>
+    <string name="fifthLinkDescription"> This link below should take you to a video on driving tips</string>
+    <string name="title_activity_google_map">GoogleMap</string>
+    <string name="title_activity_google_maps">Map</string>
+    <string name="title_activity_note">Note</string>
+    <string name="title_activity_stats">statsActiv</string>
+
+</resources>

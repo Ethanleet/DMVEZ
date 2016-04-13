@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_marginBottom="0dp"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:id="@+id/rlayout"
+        android:background="@drawable/fwy2"
+        >
+
+        <Button
+            android:id="@+id/topRectangle"
+            android:text="Quiz"
+            android:textColor="@android:color/white"
+            android:textSize="22dp"
+            android:onClick="beginQuestionnaire"
+            android:layout_width="185dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_card"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/topLeftSmall"
+            android:layout_alignStart="@+id/topLeftSmall" />
+
+
+        <Button
+            android:id="@+id/topRightSmall"
+            android:text="Resources"
+            android:onClick="beginResources"
+            android:textColor="@android:color/white"
+            android:textSize="22dp"
+            android:layout_width="185dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_card"
+            android:layout_below="@+id/topRectangle"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="68dp"
+            android:layout_marginEnd="68dp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/topLeftSmall"
+            android:text="Notes"
+            android:onClick="beginNotes"
+            android:textColor="@android:color/white"
+            android:textSize="22dp"
+            android:layout_width="185dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_card"
+            android:layout_marginLeft="62dp"
+            android:layout_marginStart="62dp"
+            android:layout_below="@+id/topRightSmall"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp"/>
+
+
+        <Button
+            android:id="@+id/bottomRightSmall"
+            android:text="Driving"
+            android:textColor="@android:color/white"
+            android:textSize="22dp"
+            android:layout_width="185dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_card"
+            android:layout_below="@+id/topLeftSmall"
+            android:layout_alignLeft="@+id/bottomLeftSmall"
+            android:layout_alignStart="@+id/bottomLeftSmall"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/bottomRectangle"
+            android:text="Flashcards"
+            android:onClick="beginFlashCards"
+            android:textColor="@android:color/white"
+            android:textSize="22dp"
+            android:layout_width="185dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_card"
+            android:layout_below="@+id/bottomRightSmall"
+            android:layout_alignLeft="@+id/topLeftSmall"
+            android:layout_alignStart="@+id/topLeftSmall"
+            android:layout_alignRight="@+id/topLeftSmall"
+            android:layout_alignEnd="@+id/topLeftSmall"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/dummy1"
+            android:text="Grades"
+            android:textColor="@android:color/white"
+            android:textSize="22dp"
+            android:layout_width="185dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_card"
+            android:layout_below="@+id/bottomRectangle"
+            android:layout_alignLeft="@+id/topRightSmall"
+            android:layout_alignStart="@+id/topRightSmall"
+            android:layout_alignRight="@+id/topRightSmall"
+            android:layout_alignEnd="@+id/topRightSmall"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/dummy2"
+            android:text="Settings"
+            android:textColor="@android:color/white"
+            android:textSize="22dp"
+            android:layout_width="185dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_card"
+            android:layout_below="@+id/dummy1"
+            android:layout_alignLeft="@+id/topLeftSmall"
+            android:layout_alignStart="@+id/topLeftSmall"
+            android:layout_alignRight="@+id/topLeftSmall"
+            android:layout_alignEnd="@+id/topLeftSmall"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/bottomLeftSmall"
+            android:text="Tips"
+            android:onClick="beginTips"
+            android:textColor="@android:color/white"
+            android:textSize="22dp"
+            android:layout_width="185dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_card"
+            android:layout_below="@+id/dummy2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="54dp"/>
+</RelativeLayout>

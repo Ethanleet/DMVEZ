@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- Here is the content main for the resources file -->
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:showIn="@layout/activity_resources" tools:context="luna_taks.myapplication.Resources"
+    >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/linksLayout"
+    android:padding="15dp"
+    >
+    <!-- This is for the DMV links banner -->
+    <TextView
+        android:id="@+id/dmvLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="@string/dmvLinksText"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        >
+    </TextView>
+    <!-- This is the link description -->
+    <TextView
+        android:id="@+id/link1desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="@string/firstLinkDescription"
+        />
+
+    <!-- This is its corresponding link -->
+    <TextView
+        android:id="@+id/link1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link1url"
+        android:autoLink="web"
+        android:layout_marginTop="130dp"
+        android:layout_centerHorizontal="true">
+    </TextView>
+
+    <TextView
+        android:id="@+id/link2desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="@string/secondLinkDescription"
+        />
+
+    <TextView
+        android:id="@+id/link2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link2url"
+        android:layout_marginTop="180dp"
+        android:autoLink="web"
+        android:layout_centerHorizontal="true">
+    </TextView>
+    <!-- Link for the videos in the same description and then
+     link format -->
+    <TextView
+        android:id="@+id/videos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="@string/videos"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/link3desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:text="@string/thirdLinkDescription"
+        />
+    <TextView
+        android:id="@+id/link3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link3url"
+        android:layout_marginTop="320dp"
+        android:autoLink="web"
+        android:layout_centerHorizontal="true">
+    </TextView>
+    <TextView
+        android:id="@+id/link4desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:text="@string/fourthLinkDescription"
+        />
+
+    <TextView
+        android:id="@+id/link4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link4url"
+        android:layout_marginTop="365dp"
+        android:autoLink="web"
+        android:layout_centerHorizontal="true">
+    </TextView>
+
+    <TextView
+        android:id="@+id/link5desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="390dp"
+        android:text="@string/fifthLinkDescription"
+        />
+
+    <TextView
+        android:id="@+id/link5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link5url"
+        android:layout_marginTop="420dp"
+        android:autoLink="web"
+        android:layout_centerHorizontal="true">
+    </TextView>
+
+</RelativeLayout>
+
+</ScrollView>

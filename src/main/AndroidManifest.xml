@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="luna_taks.myapplication" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".DMVActivity"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".QuizGrade_Activity"
+            android:label="DMV CheatSheet"
+            android:noHistory="true"
+            android:parentActivityName=".DMVActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".FlashCard_Activity"
+            android:label="@string/title_activity_flash_card"
+            android:noHistory="true"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ImageQuiz_Activity"
+            android:label="ImageQuiz"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name=".activity_tips"
+            android:label="@string/title_activity_activity_tips"
+            android:noHistory="true"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".Resources"
+            android:label="@string/title_activity_resources"
+            android:noHistory="true"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".Note"
+            android:label="@string/title_activity_note"
+            android:theme="@style/AppTheme" >
+        </activity>
+
+        <activity
+            android:name=".statsActiv"
+            android:label="@string/title_activity_stats"
+            android:theme="@style/AppTheme" >
+        </activity>
+    </application>
+
+</manifest><!--
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <application>
+        <activity android:name="luna_taks.myapplication.statsActiv"
+                    android:label="@string/title_activity_stats"
+                android:theme="@style/AppTheme"
+>
+        </activity>
+    </application>
+</manifest>
+-->

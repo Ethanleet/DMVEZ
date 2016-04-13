@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">DMV CheatSheet</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_button">Begin Test!</string>
+    <string name="title_activity_quiz_grade_">QuizGrade_Activity</string>
+</resources>

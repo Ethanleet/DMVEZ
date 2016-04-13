@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_marginTop="60dp"
+    android:layout_height="wrap_content"
+    android:background="#BBBBBB"
+    android:id="@+id/imageView">
+
+   <ImageView
+       android:layout_width="fill_parent"
+       android:layout_height="250dp"
+       android:id="@+id/image_card"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/image_card"
+        >
+    </RadioGroup>
+
+    <RelativeLayout
+        android:id="@+id/image_face"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/image_back"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" >
+    </RelativeLayout>-->
+
+
+
+
+</RelativeLayout>
